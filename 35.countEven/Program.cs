@@ -4,11 +4,11 @@
 
 
 int[] array = FillArray(6);
-var result = CountPositive(array);
+var result = CountEven(array);
 PrintArray(array);
 System.Console.WriteLine(result);
 
-int CountPositive(int[] array)
+int CountEven(int[] array)
 {
     int result = 0;
     for (int i = 0; i < array.Length; i++)

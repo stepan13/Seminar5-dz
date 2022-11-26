@@ -13,7 +13,6 @@ int CountOdd(int[] array)
     int result = 0;
     for (int i = 0; i < array.Length; i++)
     {
-        //считаем нечетным индекс, а не номер по порядку
         if (i % 2 != 0)
             result += array[i];
     }
